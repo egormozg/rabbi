@@ -101,7 +101,7 @@ h1 {
 
 @media screen and (min-width: 320px) and (max-width: 640px) {
     body {
-        background-color: #EE4266; /* Red */
+        background-color: #EE4260;
     }
     
     h1 {
@@ -115,5 +115,13 @@ h1 {
     
     .button {
         font-size: 12px;
+    }
+    
+    .main {
+        margin: 30px auto 0 auto;
+    }
+    
+    .buttons-section {
+        margin: 25px 0 20px 0;
     }
 }
