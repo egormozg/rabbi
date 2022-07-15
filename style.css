@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&family=Montserrat&family=Poppins:wght@300;400&family=Tiro+Telugu&display=swap');
 
-@media screen and (max-width: 640px) {
+@media all and (max-width: 640px) {
     body {
         background-color: olive;
     }
