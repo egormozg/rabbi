@@ -32,15 +32,15 @@ body {
             align-content: center;
 }
 
-@media (max-width: 991px) {
+@media screen and (max-width:479px) {
     div {
         margin: 30px 15px 30px 15px;
-        height: 80%;
+/*         height: 80%; */
     }
 
     h1 {
         line-height: 1.1;
-        font-size: 35px;
+        font-size: 25px;
     }
 }
 
