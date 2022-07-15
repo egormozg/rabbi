@@ -32,7 +32,7 @@ body {
             align-content: center;
 }
 
-@media (min-width:480px) and (max-width:800px) {
+@media @media screen and (max-width: 479px) {
     div {
         margin: 30px 15px 30px 15px;
         height: 100%;
