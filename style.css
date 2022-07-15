@@ -1,18 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&family=Montserrat&family=Poppins:wght@300;400&family=Tiro+Telugu&display=swap');
 
-@media all and (max-width: 640px) {
+@media (max-width: 800px) {
     body {
         background-color: olive;
-    }
-    
-    div {
-        margin: 30px 15px 30px 15px;
-        height: 100%;
-    }
-
-    h1 {
-        line-height: 1.1;
-        font-size: 10px;
     }
 }
 
