@@ -99,7 +99,7 @@ h1 {
     height: calc(100% + 10px);
 }
 
-@media screen and (min-width: 320px) and (max-width: 640px) {
+@media screen and (min-width: 320px) and (max-width: 1200px) {
     h1 {
         line-height: 1.1;
         font-size: 15px;
