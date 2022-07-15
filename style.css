@@ -99,7 +99,11 @@ h1 {
     height: calc(100% + 10px);
 }
 
-@media screen and (min-width: 320px) and (max-width: 640px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    body {
+        bacground-color: #EEFF00
+    }
+    
     h1 {
         font-size: 35px;
     }
@@ -116,3 +120,5 @@ h1 {
          margin: 30px auto 0 auto;
     }
 }
+
+/* @media screen and (min-width: 481px) and (max-width: 640px) */
