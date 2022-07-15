@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&family=Montserrat&family=Poppins:wght@300;400&family=Tiro+Telugu&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: #efefef;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Tiro Telugu', serif;
+}
+
+body {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-align-content: center;
+        -ms-flex-line-pack: center;
+            align-content: center;
+}
+
+@media (max-width: 991px) {
+    div {
+        margin: 30px 15px 30px 15px;
+        height: 80%;
+    }
+
+    h1 {
+        line-height: 1.1;
+        font-size: 35px;
+    }
+}
+
+div {
+    margin: 40px;
+    height: 80%;
+}
+
+.main {
+    height: 150px;
+    display: block;
+    margin: 40px auto 0 auto;
+}
+
+h1 {
+    line-height: 1.2;
+    font-size: 50px;
+    text-align: center;
+}
+
+.social-media {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.logo {
+    height: 35px;
+    margin: 0 5px 5px 5px;
+}
+
+.buttons-section {
+    margin: 30px 0 20px 0;
+    text-align: center;
+}
+
+.button {
+    margin: 0 7px 30px 7px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 30px;
+    position: relative;
+    border: 2px solid #000000;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: .4s;
+}
+
+.button:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    border: 2px solid rgba(0, 0, 0, 0);
+    transition: .4s;
+}
+
+.button:hover:after {
+    border-color: #000000;
+    width: calc(100% - 10px);
+    height: calc(100% + 10px);
+}
