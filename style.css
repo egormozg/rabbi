@@ -99,8 +99,14 @@ h1 {
     height: calc(100% + 10px);
 }
 
-@media screen and (min-width: 320px) and (max-width: 1200px) {
-    body {
-      background-color: #EE4266; /* Red */
+@media screen and (min-width: 320px) and (max-width: 640px) {
+    h1 {
+        line-height: 1.1;
+        font-size: 15px;
+    }
+    
+    div {
+        margin: 30px 15px 30px 15px;
+        height: 100%;
     }
 }
