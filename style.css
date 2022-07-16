@@ -5,7 +5,7 @@ html, body {
     padding: 0;
     width: 100%;
     height: 100%;
-    background: url(background.jpg);
+    background: #fffcfc;
 }
 
 body {
@@ -113,7 +113,7 @@ h1 {
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
     h1 {
-        font-size: 35px;
+        font-size: 30px;
     }
     
     .dock {
@@ -131,5 +131,15 @@ h1 {
     .zoom {
         width: 40px;
         height: 40px;
+    }
+    
+    button {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 600px) {
+    .main {
+    margin: 40px auto 0 auto;
     }
 }
