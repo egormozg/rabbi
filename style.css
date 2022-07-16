@@ -113,7 +113,7 @@ h1 {
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
     h1 {
-        font-size: 30px;
+        font-size: 31px;
     }
     
     .dock {
@@ -134,12 +134,12 @@ h1 {
     }
     
     button {
-        font-size: 12px;
+        font-size: 11px;
     }
 }
 
-@media screen and (min-width: 481px) and (max-width: 600px) {
+@media screen and (min-width: 481px) and (max-width: 660px) {
     .main {
-    margin: 40px auto 0 auto;
+    margin: 20px auto 0 auto;
     }
 }
