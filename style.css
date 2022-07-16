@@ -60,7 +60,6 @@ h1 {
     display: inline;
     width: 55px;
     height: 55px;
-    border-radius: 50%;
 }
 
 .logo {
@@ -118,10 +117,10 @@ h1 {
     }
     
     h1 {
-        font-size: 35px;
+        font-size: 30px;
     }
     
-    div {
+    .dock {
         margin: 25px 15px 30px 15px;
     }
     
@@ -131,5 +130,10 @@ h1 {
     
     .main {
         margin: 30px auto 0 auto;
+    }
+    
+    .zoom {
+        width: 40px;
+        height: 40px;
     }
 }
